@@ -234,7 +234,7 @@ function createDeclarationBlock(style) {
 
 function createIdentifier(prefix, name, value) {
   var hashedString = hash(name + stringifyValueWithProperty(value, name));
-  return process.env.NODE_ENV !== 'production' ? prefix + "-" + name + "-" + hashedString + "-react-navigation-hack"  : prefix + "-" + hashedString;
+  return process.env.NODE_ENV !== 'production' ? prefix + "-" + name + "-" + hashedString + "-react-navigation-hack"  : prefix + "-" + hashedString + "-react-navigation-hack";
 }
 /**
  * Create individual CSS keyframes rules.
